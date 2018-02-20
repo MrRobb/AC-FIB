@@ -1,6 +1,3 @@
-# FIB-AC
-
-> "Aquests apunts són una 2^90 DA."
 
 Los chinos van a dominar el mundo.
 
