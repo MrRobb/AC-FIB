@@ -149,3 +149,23 @@ Si el porcentaje de lo que tarda no és grande. No vale la pena mejorarlo. Es de
 <p align="center">
 	<img src="../images/14.png" width=100%>
 </p>
+
+## Consumo
+
+La energía se mide en **Joules**
+
+La potencia se mide en **Joules/seg => Watts**
+
+Si la potencia es constante:
+```
+Energía = Potencia * t
+```
+
+La potencia consumida por un CMOS depende de:
+- Conmutación (cambiar de estado 1 a 0, o viceversa)
+- Corriente de fugas (disipación al no ser ideales)
+- Corriente de cortocircuito (...?!)
+
+<!-- Potencia := C * V^2 * f -->
+
+<!-- Potencia_{de fuga} := I_{de fuga} * V -->
