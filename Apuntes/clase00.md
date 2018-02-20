@@ -16,13 +16,13 @@ Depende de dónde esté un KB son 1000 (DISCO) o 1024 (RAM). Los vendedores no t
 La memoria se accede por dirección. Los programas están cargados en memoria. (...)
 
 <p align="center">
-	<img src="../images/1.png" width=60%>
+	<img src="../images/1.png" width=40%>
 </p>
 
 > "Debuga esto. Mal rollo."
 
 <p align="center">
-	<img src="../images/2.png" width=60%>
+	<img src="../images/2.png" width=40%>
 </p>
 
 > "Cada bombilla consume un huevo... Y un huevo por mucho... Mal rollo."
@@ -86,12 +86,16 @@ La razón de que no se cumpla la ley de Moore actualmente es que no sale rentabl
 
 ### Latencia
 Ping --> 10ms
+
 Ferrari --> 3600s
+
 Camión --> 10.800s
 
 ### Ancho de banda
 ADSL 20Mb/s --> 2,5MB/s
+
 Ferrari --> 277,8 MB/s
+
 Camión --> 3,15 TB/s
 
 ## Segmentación
@@ -147,7 +151,7 @@ Si el porcentaje de lo que tarda no és grande. No vale la pena mejorarlo. Es de
 ¿Cuál es la parte más rentable de mejorar? Aquella que ocupe la mayoría de tiempo.
 
 <p align="center">
-	<img src="../images/14.png" width=100%>
+	<img src="../images/14.png" width=50%>
 </p>
 
 ## Consumo
@@ -166,6 +170,18 @@ La potencia consumida por un CMOS depende de:
 - Corriente de fugas (disipación al no ser ideales)
 - Corriente de cortocircuito (...?!)
 
-<!-- Potencia := C * V^2 * f -->
+<p align="center">
+	<img src="../images/15.png" width=50%>
+</p>
 
-<!-- Potencia_{de fuga} := I_{de fuga} * V -->
+<p align="center">
+	<img src="../images/16.png" width=50%>
+</p>
+
+<p align="center">
+	<img src="../images/17.png" width=80%>
+</p>
+
+## Fiabilidad
+
+// TO-DO
