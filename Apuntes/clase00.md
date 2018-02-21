@@ -184,4 +184,44 @@ La potencia consumida por un CMOS depende de:
 
 ## Fiabilidad
 
-// TO-DO
+Fiabilidad es el tiempo de funcionamiento continuo sin fallos. Para analizarlo tenemos que tener una:
+
+#### Tasa de fallos
+
+```
+Tasa de fallos = 1 / tiempo medio de fallo
+```
+
+No es difícil no? Ahora en inglés.
+
+**MTTF** --> Mean Time To Failure
+**MTTR** --> Mean Time To Repair
+**MTBF** --> Mean Time Between Failures
+
+#### Disponibilidad
+
+```
+Disponibilidad = Tiempo medio de fallo / (Tiempo medio de fallo + Tiempo medio de Reparación)
+```
+
+#### Estadística
+
+Este tiempo de fallo, se distribuye exponencialmente (PE be like). Por lo tanto, tenemos que:
+
+<p align="center">
+	<img src="../images/18.png" width=40%>
+</p>
+
+#### Calcular el MTTF de un sistema
+
+<p align="center">
+	<img src="../images/19.png" width=100%>
+</p>
+
+#### Redundancia
+
+Para mejorar el MTTF de un sistema se puede hacer de dos maneras.
+1. Vuelvo a calcular el resultado para ver si es correcto **(gastas más tiempo)**.
+2. Disponer de elementos extra para reemplazar al que falla **(gastas en recursos)**.
+
+##### Ejemplo
