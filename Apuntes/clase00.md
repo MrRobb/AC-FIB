@@ -225,3 +225,7 @@ Para mejorar el MTTF de un sistema se puede hacer de dos maneras.
 2. Disponer de elementos extra para reemplazar al que falla **(gastas en recursos)**.
 
 ##### Ejemplo
+
+<p align="center">
+	<img src="../images/20.png" width=100%>
+</p>
