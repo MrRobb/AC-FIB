@@ -1,5 +1,10 @@
 # AC-FIB
 
+[![HitCount](http://hits.dwyl.io/mrrobb/IDI-FIB.svg)](http://hits.dwyl.io/mrrobb/IDI-FIB)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
+[![GitHub Issues](https://img.shields.io/github/issues/mrrobb/IDI-FIB.svg)](https://github.com/mrrobb/IDI-FIB/issues)
+[![GitHub stars](https://img.shields.io/github/stars/mrrobb/IDI-FIB.svg?style=social&label=Star)](https://GitHub.com/mrrobb/IDI-FIB/stargazers)
+
 > Fermin Sánchez fermin@ac.upc.edu
 
 ### Temario
