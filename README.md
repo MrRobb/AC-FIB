@@ -24,7 +24,7 @@
 
 ### Problemas
 
-- Semana 1:
+- [Semana 1](Problemas/Problemas%20Tema%201.pdf):
 	- 1.1
 	- 1.2
 	- 1.6
