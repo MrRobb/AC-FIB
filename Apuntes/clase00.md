@@ -136,6 +136,10 @@ Camión --> 3,15 TB/s
 	<img src="../images/12.png" width=100%>
 </p>
 
+<p align="center">
+	<img src="../images/21.png" width=100%>
+</p>
+
 ## Ley de Amdahl
 
 > Leer capítulo 1 de H&P
