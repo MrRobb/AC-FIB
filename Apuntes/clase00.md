@@ -6,7 +6,7 @@ El primo informático va a dominar el mundo.
 ## Mediciones
 
 | Nombre | Símbolo | 2^x |10^x| Error |
-|---|------|---|-----|-|-|
+|--------|---------|-----|----|-------|
 | Kilo | K | 2^10 -> 1024 | 10^3 -> 1000 | 2,4% |
 
 Depende de dónde esté un KB son 1000 (DISCO) o 1024 (RAM). Los vendedores no te engañan, depende de lo que compres es una medida u otra.
