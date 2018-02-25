@@ -146,7 +146,7 @@ Camión --> 3,15 TB/s
 
 Si yo solo toco una subrutina y la mejoro y todo lo demás lo dejo igual. La ganancia sería cuanto se reduce el tiempo de la subrutina.
 
-Si el porcentaje de lo que tarda no és grande. No vale la pena mejorarlo. Es decir, céntrate en aquello que tarda más.
+Si el porcentaje de lo que tarda no es grande. No vale la pena mejorarlo. Es decir, céntrate en aquello que tarda más.
 
 <p align="center">
 	<img src="../images/13.png" width=60%>
