@@ -31,6 +31,12 @@
 	- 1.6
 	- 1.9
 	- 1.11
+- [Semana 1](Problemas/Problemas%20Tema%202.pdf):
+	- 1.12
+	- 2.1
+	- 2.2
+	- 2.5
+	- 2.6
 
 ### Evaluación
 
