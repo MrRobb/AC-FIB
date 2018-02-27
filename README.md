@@ -31,12 +31,16 @@
 	- 1.6
 	- 1.9
 	- 1.11
-- [Semana 1](Problemas/Problemas%20Tema%202.pdf):
+- [Semana 2](Problemas/Problemas%20Tema%202.pdf):
 	- 1.12
 	- 2.1
 	- 2.2
 	- 2.5
 	- 2.6
+- [Semana 3](Problemas/Problemas%20Tema%203.pdf):
+- [Semana 4](Problemas/Problemas%20Tema%204-5-6.pdf):
+- [Semana 5](Problemas/Problemas%20Tema%204-5-6.pdf):
+- [Semana 6](Problemas/Problemas%20Tema%204-5-6.pdf):
 
 ### Evaluación
 
