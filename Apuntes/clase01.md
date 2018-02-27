@@ -118,4 +118,125 @@ a(b,c,d) = a + b + c * d
 	<img src="../images/29.png" width=80%>
 </p>
 
+### INSTRUCCIONES DE MOVIMIENTO
+
+<p align="center">
+	<img src="../images/30.png" width=100%>
+</p>
+
+> En el manual de Microsoft va al revés (MOVx op2, op1)
+
+**MOVSxy** --> Extiende el signo.
+
+**MOVZxy** --> Pone ceros.
+
+> Si se te olvida la -m32 el push y el pop se vuelven locos.
+
+**LEAL** --> Mueve la dirección al registro de destino.
+
+> En todos se puede mover de op1 a op1
+
+### INSTRUCCIONES ARITMÉTICAS
+
+<p align="center">
+	<img src="../images/31.png" width=100%>
+</p>
+
+<p align="center">
+	<img src="../images/32.png" width=100%>
+</p>
+
+**IMULL** --> Sé que el resultado puede tener más de 32 bits.
+
+**IMUL** --> Sé que el resultado no tiene más de 32 bits.
+
+**MULL** --> Multiplica el %eax por el op1 que puede tener 64 bits.
+
+**CLTD** --> Convierte 32 bits (%eax) en 64 bits (%edx %eax).
+
+**IDIVL** --> Divide enteros.
+
+**DIVL** --> Divide naturales.
+
+### INSTRUCCIONES LÓGICAS
+
+<p align="center">
+	<img src="../images/33.png" width=100%>
+</p>
+
+### INSTRUCCIONES DE SALTO
+
+<p align="center">
+	<img src="../images/34.png" width=100%>
+</p>
+
+### FLAGS DE CONDICIONES
+
+<p align="center">
+	<img src="../images/35.png" width=100%>
+</p>
+
+### Ejemplos
+
+<p align="center">
+	<img src="../images/36.png" width=100%>
+</p>
+
+```assembly
+.data				# el código empieza aquí
+	.align 4 		# empieza en una dirección múltiple de 4
+	.string "Esto es un string.\n"
+.text
+	.align 4 		# empieza en una dirección múltiple de 4
+	.globl main		# hace que empiece haciendo el main
+	.type main, @function
+
+main:	...
+		...
+```
+
 ### Traducción C --> Assembly
+
+> El profesor se ha saltado los ifs, whiles, etc: "Ya lo habéis hecho en IC/EC."
+
+> Los punteros son de 4 bytes. Ya que nuestra máquina es de 32 bits.
+
+|TIPO|sizeof(TIPO)|
+|----|------------|
+|	char	|	1 byte	|
+|	char*	|	4 bytes	|
+|	int	|	4 bytes	|
+|	int*	|	4 bytes	|
+|	double	|	8 bytes	|
+
+#### Vectores
+
+int V[8];
+
+**V[i]** --> **@V + (i) *  sizeof(int)**
+
+```cpp
+int Vi(int V[100], int i) {
+	return V[i];
+}
+```
+
+<p align="center">
+	<img src="../images/37.png" width=70%>
+</p>
+
+#### Matrices
+
+int mat[10][10];
+
+**mat[i][j]** --> **@mat + (Ncolumnas * i + j) * sizeof(int)**
+
+```cpp
+int mfc(int mat[50][80], int fil, int col) {
+	return mat[fil][col];
+}
+```
+
+<p align="center">
+	<img src="../images/38.png" width=70%>
+</p>
