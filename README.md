@@ -13,6 +13,7 @@
 - Fundamentos ([PDF](Transparencias/010_Fundamentos.pdf))
 	- [Clase 00](Apuntes/clase00.md)
 - Lenguaje máquina ([PDF](Transparencias/020_Lenguaje_Maquina_x86.pdf))
+	- [Clase 01](Apuntes/clase01.md)
 - Cache Básica ([PDF](Transparencias/030_Cache_Basica.pdf))
 - Memoria Virtual ([PDF](Transparencias/040_Memoria_Virtual.pdf))
 - Cache Avanzada ([PDF](Transparencias/050_Cache_Avanzada.pdf))
