@@ -199,8 +199,14 @@ Tasa de fallos = 1 / tiempo medio de fallo
 No es difícil no? Ahora en inglés.
 
 **MTTF** --> Mean Time To Failure
+
 **MTTR** --> Mean Time To Repair
+
 **MTBF** --> Mean Time Between Failures
+
+```
+MTBF = MTTF + MTTR
+```
 
 #### Disponibilidad
 

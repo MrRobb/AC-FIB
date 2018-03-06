@@ -63,8 +63,6 @@ Cada tipo de dato tiene un rango de número que caben dentro (ambos incluidos):
 
 > MOV[ B (8 bits)| L (32 bits)|W (16 bits) ]
 
-// TO-DO: revisar (arriba)
-
 No hay structs, ni matrices, ni ningún tipo estructurado
 
 #### Registros
