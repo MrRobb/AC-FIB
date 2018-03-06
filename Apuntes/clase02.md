@@ -155,3 +155,53 @@ struct S5 {
 <p align="center">
 	<img src="../images/50.png" width=80%>
 </p>
+
+### Subrutinas
+
+<p align="center">
+	<img src="../images/51.png" width=40%>
+	<img src="../images/52.png" width=40%>
+	<img src="../images/53.png" width=80%>
+</p>
+
+#### Reglas de las subrutinas **(importante)**
+
+##### Parámetros
+- Se pasan de izquiera a derecha
+- Vectores y matrices --> por referencia
+- Structs --> por valor (no importa el tamaño)
+- Los char ocupan 4 bytes
+- Los short ocupan 4 bytes
+
+##### Variables locales
+- Tratar como si todas las variables locales fuesen un struct (en temas de alineamiento).
+
+##### Registros
+- **%ebp y %esp** reservados para subrutinas.
+- **%ebx, %esi, %edi** salvar si se modifican.
+- **%eax, %ecx, %edx** se pueden modificar en las subrutinas.
+
+##### Return
+- Siempre guardarlo en el %eax
+
+> La pila siempre está alineada a 4 bytes.
+
+### Ejemplo
+
+```c
+void PDOT(int M[10][10], int *p) {
+	int i;
+	* p = 0;
+	for (i = 0; i < 10; i++) {
+		* p += DOT(&M[0][0], &M[i][0], 10);
+	}
+}
+```
+
+// TO-DO: rellenar
+
+#### Pasos
+
+<p align="center">
+	<img src="../images/54.png" width=80%>
+</p>
