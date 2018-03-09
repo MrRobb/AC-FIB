@@ -14,6 +14,7 @@
 	- [Clase 00](Apuntes/clase00.md)
 - Lenguaje máquina ([PDF](Transparencias/020_Lenguaje_Maquina_x86.pdf))
 	- [Clase 01](Apuntes/clase01.md)
+	- [Clase 02](Apuntes/clase02.md)
 - Cache Básica ([PDF](Transparencias/030_Cache_Basica.pdf))
 - Memoria Virtual ([PDF](Transparencias/040_Memoria_Virtual.pdf))
 - Cache Avanzada ([PDF](Transparencias/050_Cache_Avanzada.pdf))
@@ -26,17 +27,9 @@
 ### Problemas
 
 - [Semana 1](Problemas/Problemas%20Tema%201.pdf):
-	- 1.1
-	- 1.2
-	- 1.6
-	- 1.9
-	- 1.11
+	- (1.1, 1.2, 1.6, 1.9, 1.11)
 - [Semana 2](Problemas/Problemas%20Tema%202.pdf):
-	- 1.12
-	- 2.1
-	- 2.2
-	- 2.5
-	- 2.6
+	- (1.12, 2.1, 2.2, 2.5, 2.6)
 - [Semana 3](Problemas/Problemas%20Tema%203.pdf):
 - [Semana 4](Problemas/Problemas%20Tema%204-5-6.pdf):
 - [Semana 5](Problemas/Problemas%20Tema%204-5-6.pdf):
