@@ -16,6 +16,7 @@
 	- [Clase 01](Apuntes/clase01.md)
 	- [Clase 02](Apuntes/clase02.md)
 - Cache Básica ([PDF](Transparencias/030_Cache_Basica.pdf))
+	- [Clase 03](Apuntes/clase03.md)
 - Memoria Virtual ([PDF](Transparencias/040_Memoria_Virtual.pdf))
 - Cache Avanzada ([PDF](Transparencias/050_Cache_Avanzada.pdf))
 - RAM ([PDF](Transparencias/060_RAM.pdf))
