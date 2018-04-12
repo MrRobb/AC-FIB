@@ -14,11 +14,11 @@ typedef struct {
 	int data;
 	int d;
 	int v;
-} bloque;
+} cache_line;
 
 #define cacheSize 128 
 
-bloque cache[cacheSize]; // cache de 128 bloques con dirty bit
+cache_line cache[cacheSize]; // cache de 128 bloques con dirty bit
  
 /* La rutina init_cache es cridada pel programa principal per
  * inicialitzar la cache.
