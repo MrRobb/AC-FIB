@@ -112,7 +112,3 @@ c. A4 A3
 <p align="center">
 	<img src="../images/88.png" width=40%>
 </p>
-
-## Optimizaciones de código
-
-// TO-DO
