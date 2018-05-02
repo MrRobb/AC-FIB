@@ -68,6 +68,9 @@ run:
 	./IJK2-EXE1024.elf > 5_t_1024_ijk.txt
 	./JKI2-EXE1024.elf > 5_t_1024_jki.txt
 	./KIJ2-EXE1024.elf > 5_t_1024_kij.txt
+	
+calculate:
+	py MFlops.py
 
 
 clear:
