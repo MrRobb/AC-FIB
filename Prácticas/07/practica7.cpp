@@ -3,10 +3,10 @@
 #include <set>
 #include <queue>
 
-#define N_ASOC 6
-#define CACHE_SIZE_BYTES 3072
-#define CACHE_SIZE_LINES 384
-#define LINE_SIZE_BYTES 8
+#define N_ASOC (INT_MAX / 64)
+#define CACHE_SIZE_BYTES INT_MAX
+#define CACHE_SIZE_LINES (INT_MAX / 64)
+#define LINE_SIZE_BYTES 64
 
 using namespace std;
 
